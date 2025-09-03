@@ -6,6 +6,7 @@ edition = "2021"
 [dependencies]
 sha2 = "0.10.8"
 bcrypt = "0.17.0"
+argon2 = { version = "0.5.3", features = ["std"] }
 threadpool = "1.8"
-zip = { version = "0.6", features = ["aes-crypto"] }
+#zip = { version = "0.6", features = ["aes-crypto"] }
 itertools = "0.10"
