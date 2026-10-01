@@ -11,6 +11,7 @@ A TUI password cracker written in Rust that does dictionary attacks on argon2, b
 ```bash
 git clone https://github.com/ColAlexsanders/PasswordCracker.git
 cd PasswordCracker
+mv </dir/where/rockyou.txt/is> wordlists/rockyou.txt
 cargo run
 ```
 
