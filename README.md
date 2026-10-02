@@ -1,8 +1,5 @@
 A TUI password cracker written in Rust that does dictionary attacks on argon2, bcrypt, and sha256 hashes 
 
-# Requirements
-+ Latest version of Cargo
-
 # Dependencies
 + cargo
 + rockyou.txt
